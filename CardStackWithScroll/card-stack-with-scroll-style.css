@@ -1,0 +1,59 @@
+* {
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+a {
+    font-family: sans-serif;
+}
+
+p { 
+    font-family: sans-serif;
+}
+
+.stack-container {
+    background-color: rgb(248, 204, 211);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.stack-container .card {
+    font-family: sans-serif;
+    background-color: peachpuff;
+    border: solid lightcoral 5px;
+
+    position: sticky;
+    top: 0;
+    border-radius: 7px;
+    width: 200px;
+    margin: 100px;
+    padding: 40px;
+    text-align: static;
+}
+
+.stack-container2 {
+    background-color: greenyellow;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.stack-container2 .card {
+    font-family: sans-serif;
+    background-color: gold;
+    border: solid lightslategray 5px;
+
+    position: sticky;
+    bottom: 0;
+    border-radius: 7px;
+    width: 200px;
+    margin: 100px;
+    padding: 40px;
+    text-align: static;
+}
